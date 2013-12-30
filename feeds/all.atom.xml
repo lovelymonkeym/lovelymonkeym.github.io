@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>LovelyMonkeyM</title><link href="http://lovelymonkeym.github.io/" rel="alternate"></link><link href="http://lovelymonkeym.github.io/feeds/all.atom.xml" rel="self"></link><id>http://lovelymonkeym.github.io/</id><updated>2013-12-28T00:00:00+08:00</updated><entry><title>专利代理人考试</title><link href="http://lovelymonkeym.github.io/zhuan-li-dai-li-ren-kao-shi.html" rel="alternate"></link><updated>2013-12-28T00:00:00+08:00</updated><author><name></name></author><id>tag:lovelymonkeym.github.io,2013-12-28:zhuan-li-dai-li-ren-kao-shi.html</id><summary type="html">&lt;p&gt;报名时间：5、6月&lt;/p&gt;
+&lt;p&gt;考试时间：11月&lt;/p&gt;
+&lt;p&gt;考试内容：专利法，相关法，主观题&lt;/p&gt;
+&lt;p&gt;费用：RMB100～200&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.mysipo.com/exam.php"&gt;http://www.mysipo.com/exam.php&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://agent.sipo.gov.cn:8000/sipo/index.action"&gt;http://agent.sipo.gov.cn:8000/sipo/index.action&lt;/a&gt;&lt;/p&gt;</summary><category term="Patent"></category><category term="Exam"></category><category term="Certification"></category></entry><entry><title>Vim修改配置</title><link href="http://lovelymonkeym.github.io/vimxiu-gai-pei-zhi.html" rel="alternate"></link><updated>2013-12-27T00:00:00+08:00</updated><author><name></name></author><id>tag:lovelymonkeym.github.io,2013-12-27:vimxiu-gai-pei-zhi.html</id><summary type="html">&lt;ol&gt;
+&lt;li&gt;配置文件的位置：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在目录 /etc/ 下面，有个名为vimrc 的文件，这是系统中公共的vim配置文件，对所有用户都有效。而在每个用户的主目录下，都可以自己建立私有的配置文件，命名为：“.vimrc”。&lt;/p&gt;
+&lt;p&gt;如果不知道配置文件及脚本的位置，可以在vim中使用命令 :scriptnames。&lt;/p&gt;
+&lt;p&gt;如果不知道vim配置文件的搜索位置，请输入 :version。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;设置tab的宽度。/etc/vim/vimrc文件为全局配置文件，对全部用户有效。每个用户也可以建立自己的配置文件~/.vimrc,修改后使用&lt;code&gt;source ~/.vimrc&lt;/code&gt;生效。
+    set tabstop=4   //一个tab是几个空格，默认为8
+    set softtabstop=4   //表示在编辑模式的时候按退格键的时候退回缩进的长度，当使用 expandtab 时特别有用
+    set shiftwidth=4    //表示每一级缩进的长度一般设置成跟 softtabstop 一样。
+    set noexpandtab     //用制表符表示一个缩进。当设置成 expandtab 时，缩进用空格来表示
+    set nu              //显示行号
+    set autoindent      //表示自动缩进
+    set cindent         //是特别针对C语言自动缩进&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;设置完后保存退出。运行source ~/.vimrc 使配置文件生效。即可体验按tab键时缩进4个空格的宽度，C编程时换行自动缩进。&lt;/p&gt;
+&lt;p&gt;参考：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.cnblogs.com/xiaofengkang/archive/2011/05/18/2050274.html"&gt;http://www.cnblogs.com/xiaofengkang/archive/2011/05/18/2050274.html&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.cnblogs.com/liqiu/archive/2012/11/12/2765816.html"&gt;http://www.cnblogs.com/liqiu/archive/2012/11/12/2765816.html&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="Linux，Vim"></category></entry><entry><title>Lines in 'House Of Cards'</title><link href="http://lovelymonkeym.github.io/lines-in-house-of-cards.html" rel="alternate"></link><updated>2013-12-19T00:00:00+08:00</updated><author><name></name></author><id>tag:lovelymonkeym.github.io,2013-12-19:lines-in-house-of-cards.html</id><summary type="html">&lt;h2&gt;House Of Cards S01E01&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;give and &lt;strong&gt;take&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Anger is useless.&lt;/li&gt;
+&lt;li&gt;There are two kinds pains.The sort of pain that make you strong or useless pain, the sort of pain that is only suffering.&lt;/li&gt;
+&lt;li&gt;Don't have patience for useless things.&lt;/li&gt;
+&lt;li&gt;你的另一半是你最好的队友。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;House Of Cards S01E02&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;What a martyr craves more than anything is a sword to fall on, so you sharppen the blade, hold it at just the right angle, and then 3,2,1..(烈士最渴求的就是壮烈牺牲，所以，你磨好兵刃，调整好角度，默数3,2,1)&lt;/li&gt;
+&lt;li&gt;She's right.I should take batter care of myself.But it's the principle.I won't be a slave to anybody or anything you can order with a toll-free number.(她是对的，我应该照顾好自己。但这是原则问题。我绝不受任何人或者免费电话能订的东西的摆布。)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;House Of Cards S01E03&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Power's a lot like real estate. It's all about location, location, location. The closer you are to the source, the higher you property value. 权力正如地产。位置是重中之重。你离中心越近，你的财产就越值钱。&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="TV"></category><category term="Life"></category></entry><entry><title>Linux的root登录和密码设置</title><link href="http://lovelymonkeym.github.io/linuxde-rootdeng-lu-he-mi-ma-she-zhi.html" rel="alternate"></link><updated>2013-12-19T00:00:00+08:00</updated><author><name></name></author><id>tag:lovelymonkeym.github.io,2013-12-19:linuxde-rootdeng-lu-he-mi-ma-she-zhi.html</id><summary type="html">&lt;p&gt;安装后只是设置了管理员账号，这个账号属于admin用户组。但是没有设置root密码，因此不能&lt;strong&gt;su - root&lt;/strong&gt;。按如下步骤设置root密码：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;passwd&lt;/span&gt; &lt;span class="n"&gt;root&lt;/span&gt;
+&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;sudo&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="n"&gt;password&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;you&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;     &lt;span class="c1"&gt;//你现在这个用户的密码&lt;/span&gt;
+&lt;span class="n"&gt;Enter&lt;/span&gt; &lt;span class="n"&gt;new&lt;/span&gt; &lt;span class="n"&gt;UNIX&lt;/span&gt; &lt;span class="n"&gt;password&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;    &lt;span class="c1"&gt;//设置root密码&lt;/span&gt;
+&lt;span class="n"&gt;Retype&lt;/span&gt; &lt;span class="n"&gt;new&lt;/span&gt; &lt;span class="n"&gt;UNIX&lt;/span&gt; &lt;span class="n"&gt;password&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;   &lt;span class="c1"&gt;//重复&lt;/span&gt;
+&lt;span class="nl"&gt;passwd:&lt;/span&gt; &lt;span class="n"&gt;password&lt;/span&gt; &lt;span class="n"&gt;updated&lt;/span&gt; &lt;span class="n"&gt;successfully&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="Linux"></category></entry></feed>
