@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>LovelyMonkeyM</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+		<script src="/theme/html5.js"></script>
+	<![endif]-->
+
+	<!-- Styles -->
+	<link href="/theme/bootstrap.min.css" rel="stylesheet">
+	<link href="/theme/local.css" rel="stylesheet">
+	<link href="/theme/pygments.css" rel="stylesheet">
+
+    <!-- Feeds -->
+
+</head>
+<body>
+	<div class="topbar">
+	  <div class="topbar-inner">
+		<div class="container-fluid">
+		  <a class="brand" href="/">LovelyMonkeyM</a>
+			<ul class="nav">
+					<li ><a href="/category/life.html">Life</a></li>
+					<li ><a href="/category/linux.html">Linux</a></li>
+			</ul>
+			<p class="pull-right"><a href="/archives.html">[archives]</a> <a href="/tags.html">[tags]</a></p>
+		</div>
+	  </div>
+	</div>
+
+	<div class="container-fluid">
+	  <div class="sidebar">
+		<div class="well">
+			<h3>Blogroll</h3>
+			<ul>
+				<li><a href="http://getpelican.com/">Pelican</a></li>
+				<li><a href="http://python.org/">Python.org</a></li>
+				<li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+				<li><a href="#">You can modify those links in your config file</a></li>
+			</ul>
+			<div class="social">
+			<h3>Social</h3>
+			<ul>
+				<li><a href="#">You can add links in your config file</a></li>
+				<li><a href="#">Another social link</a></li>
+			</ul>
+			</div>
+		</div>
+	  </div>
+	  <div class="content">
+<div class="page-header"><h1>LovelyMonkeyM <small>Linux，Vim</small></h1></div>
+<div class='article'>
+	<h2>Vim修改配置</h2>
+	<div class="well small">Permalink: <a class="more" href="/vimxiu-gai-pei-zhi.html">2013-12-27 00:00:00</a>
+by <a class="url fn" href="/author/.html"> </a>
+ in <a href="/category/linux.html">Linux</a>
+tags: <a href="/tag/linuxvim.html">Linux，Vim</a> </div>
+	<div class="summary"><ol>
+<li>配置文件的位置：</li>
+</ol>
+<p>在目录 /etc/ 下面，有个名为vimrc 的文件，这是系统中公共的vim配置文件，对所有用户都有效。而在每个用户的主目录下，都可以自己建立私有的配置文件，命名为：“.vimrc”。</p>
+<p>如果不知道配置文件及脚本的位置，可以在vim中使用命令 :scriptnames。</p>
+<p>如果不知道vim配置文件的搜索位置，请输入 :version。</p>
+<ol>
+<li>设置tab的宽度。/etc/vim/vimrc文件为全局配置文件，对全部用户有效。每个用户也可以建立自己的配置文件~/.vimrc,修改后使用<code>source ~/.vimrc</code>生效。
+    set tabstop=4   //一个tab是几个空格，默认为8
+    set softtabstop=4   //表示在编辑模式的时候按退格键的时候退回缩进的长度，当使用 expandtab 时特别有用
+    set shiftwidth=4    //表示每一级缩进的长度一般设置成跟 softtabstop 一样。
+    set noexpandtab     //用制表符表示一个缩进 ...</li></ol> <a class="btn primary xsmall" href="/vimxiu-gai-pei-zhi.html">more…</a>
+	</div>
+</div>	
+
+
+		<footer>
+		  <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme based on <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>.</p>
+		  <p>&copy; </p>
+		</footer>
+	  </div>
+
+	</div>
+</body>
+</html>

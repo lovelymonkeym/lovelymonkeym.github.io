@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>LovelyMonkeyM</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+		<script src="/theme/html5.js"></script>
+	<![endif]-->
+
+	<!-- Styles -->
+	<link href="/theme/bootstrap.min.css" rel="stylesheet">
+	<link href="/theme/local.css" rel="stylesheet">
+	<link href="/theme/pygments.css" rel="stylesheet">
+
+    <!-- Feeds -->
+
+</head>
+<body>
+	<div class="topbar">
+	  <div class="topbar-inner">
+		<div class="container-fluid">
+		  <a class="brand" href="/">LovelyMonkeyM</a>
+			<ul class="nav">
+					<li ><a href="/category/life.html">Life</a></li>
+					<li ><a href="/category/linux.html">Linux</a></li>
+			</ul>
+			<p class="pull-right"><a href="/archives.html">[archives]</a> <a href="/tags.html">[tags]</a></p>
+		</div>
+	  </div>
+	</div>
+
+	<div class="container-fluid">
+	  <div class="sidebar">
+		<div class="well">
+			<h3>Blogroll</h3>
+			<ul>
+				<li><a href="http://getpelican.com/">Pelican</a></li>
+				<li><a href="http://python.org/">Python.org</a></li>
+				<li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+				<li><a href="#">You can modify those links in your config file</a></li>
+			</ul>
+			<div class="social">
+			<h3>Social</h3>
+			<ul>
+				<li><a href="#">You can add links in your config file</a></li>
+				<li><a href="#">Another social link</a></li>
+			</ul>
+			</div>
+		</div>
+	  </div>
+	  <div class="content">
+<div class="page-header"><h1>LovelyMonkeyM <small>Linux</small></h1></div>
+<div class='article'>
+	<h2>Linux的root登录和密码设置</h2>
+	<div class="well small">Permalink: <a class="more" href="/linuxde-rootdeng-lu-he-mi-ma-she-zhi.html">2013-12-19 00:00:00</a>
+by <a class="url fn" href="/author/.html"> </a>
+ in <a href="/category/linux.html">Linux</a>
+tags: <a href="/tag/linux.html">Linux</a> </div>
+	<div class="summary"><p>安装后只是设置了管理员账号，这个账号属于admin用户组。但是没有设置root密码，因此不能<strong>su - root</strong>。按如下步骤设置root密码：</p>
+<div class="highlight"><pre><span class="o">&gt;</span><span class="n">sudo</span> <span class="n">passwd</span> <span class="n">root</span>
+<span class="p">[</span><span class="n">sudo</span><span class="p">]</span><span class="n">password</span> <span class="k">for</span> <span class="n">you</span><span class="o">:</span>     <span class="c1">//你现在这个用户的密码</span>
+<span class="n">Enter</span> <span class="n">new</span> <span class="n">UNIX</span> <span class="n">password</span><span class="o">:</span>    <span class="c1">//设置root密码</span>
+<span class="n">Retype</span> <span class="n">new</span> <span class="n">UNIX</span> <span class="n">password</span><span class="o">:</span>   <span class="c1">//重复</span>
+<span class="nl">passwd:</span> <span class="n">password</span> <span class="n">updated</span> <span class="n">successfully</span>
+</pre></div> <a class="btn primary xsmall" href="/linuxde-rootdeng-lu-he-mi-ma-she-zhi.html">more…</a>
+	</div>
+</div>	
+
+
+		<footer>
+		  <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme based on <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>.</p>
+		  <p>&copy; </p>
+		</footer>
+	  </div>
+
+	</div>
+</body>
+</html>
