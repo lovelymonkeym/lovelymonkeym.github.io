@@ -37,28 +37,6 @@
 		<div id="contents">
 <div class="post type-post status-publish format-standard hentry category-general" id="post">
 	<div class="entry-meta">
-		<div class="date"><a href="/zhuan-li-dai-li-ren-kao-shi.html">12月 28 2013</a></div>
-		<span class="byline">By <a href="/author/monkey.html">Monkey</a></span>
-			<div class="comments"><a href="/zhuan-li-dai-li-ren-kao-shi.html#disqus_thread" title="Comment on 专利代理人考试">comments</a></div>
-			<span class="cat-links"><a href="/category/life.html" title="View all posts in Life" rel="category tag">Life</a></span>
-	</div> <!-- /#entry-meta -->
-	<div class="main">
-		<h2 class="entry-title">
-			<a href="/zhuan-li-dai-li-ren-kao-shi.html" title="Permalink to 专利代理人考试" rel="bookmark">专利代理人考试</a>
-		</h2>
-		<div class="entry-content">
-			<p>报名时间：5、6月</p>
-<p>考试时间：11月</p>
-<p>考试内容：专利法，相关法，主观题</p>
-<p>费用：RMB100～200</p>
-<p><a href="http://www.mysipo.com/exam.php">http://www.mysipo.com/exam.php</a></p>
-<p><a href="http://agent.sipo.gov.cn:8000/sipo/index.action">http://agent.sipo.gov.cn:8000/sipo/index.action</a></p>
-		</div> <!--/#entry-content-->
-    		<span class="tag-links"><strong>Tagged</strong>
- <a href="/tag/certification.html" rel="tag">Certification</a>,  <a href="/tag/exam.html" rel="tag">Exam</a>,  <a href="/tag/patent.html" rel="tag">Patent</a>    		</span>
-	</div> <!--/#main-->
-</div>  <!--/#post--><div class="post type-post status-publish format-standard hentry category-general" id="post">
-	<div class="entry-meta">
 		<div class="date"><a href="/vimxiu-gai-pei-zhi.html">12月 27 2013</a></div>
 		<span class="byline">By <a href="/author/monkey.html">Monkey</a></span>
 			<div class="comments"><a href="/vimxiu-gai-pei-zhi.html#disqus_thread" title="Comment on Vim修改配置">comments</a></div>
@@ -76,15 +54,16 @@
 <p>如果不知道配置文件及脚本的位置，可以在vim中使用命令 :scriptnames。</p>
 <p>如果不知道vim配置文件的搜索位置，请输入 :version。</p>
 <ol>
-<li>设置tab的宽度。/etc/vim/vimrc文件为全局配置文件，对全部用户有效。每个用户也可以建立自己的配置文件~/.vimrc,修改后使用<code>source ~/.vimrc</code>生效。
-    set tabstop=4   //一个tab是几个空格，默认为8
-    set softtabstop=4   //表示在编辑模式的时候按退格键的时候退回缩进的长度，当使用 expandtab 时特别有用
-    set shiftwidth=4    //表示每一级缩进的长度一般设置成跟 softtabstop 一样。
-    set noexpandtab     //用制表符表示一个缩进。当设置成 expandtab 时，缩进用空格来表示
-    set nu              //显示行号
-    set autoindent      //表示自动缩进
-    set cindent         //是特别针对C语言自动缩进</li>
+<li>设置tab的宽度。</li>
 </ol>
+<p>/etc/vim/vimrc文件为全局配置文件，对全部用户有效。每个用户也可以建立自己的配置文件~/.vimrc,修改后使用<code>source ~/.vimrc</code>生效。
+    <code>set tabstop=4   //一个tab是几个空格，默认为8</code>
+    <code>set softtabstop=4   //表示在编辑模式的时候按退格键的时候退回缩进的长度，当使用 expandtab 时特别有用</code>
+    <code>set shiftwidth=4    //表示每一级缩进的长度一般设置成跟 softtabstop 一样。</code>
+    <code>set noexpandtab     //用制表符表示一个缩进。当设置成 expandtab 时，缩进用空格来表示</code>
+    <code>set nu              //显示行号</code>
+    <code>set autoindent      //表示自动缩进</code>
+    <code>set cindent         //是特别针对C语言自动缩进</code></p>
 <p>设置完后保存退出。运行source ~/.vimrc 使配置文件生效。即可体验按tab键时缩进4个空格的宽度，C编程时换行自动缩进。</p>
 <p>参考：</p>
 <ol>
